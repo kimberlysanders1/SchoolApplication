@@ -48,3 +48,8 @@ C:\Users\kimdi\source\repos\SchoolApplication\SchoolApplication\SchoolApplicatio
 C:\Users\kimdi\source\repos\SchoolApplication\SchoolApplication\SchoolApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\kimdi\source\repos\SchoolApplication\SchoolApplication\SchoolApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kimdi\source\repos\SchoolApplication\SchoolApplication\SchoolApplication\obj\Debug\netcoreapp3.1\SchoolApplication.csproj.CopyComplete
+C:\Users\3019655\source\repos\SchoolApplication\SchoolApplication\SchoolApplication\obj\Debug\netcoreapp3.1\SchoolApplication.csprojAssemblyReference.cache
+C:\Users\3019655\source\repos\SchoolApplication\SchoolApplication\SchoolApplication\obj\Debug\netcoreapp3.1\SchoolApplication.AssemblyInfoInputs.cache
+C:\Users\3019655\source\repos\SchoolApplication\SchoolApplication\SchoolApplication\obj\Debug\netcoreapp3.1\SchoolApplication.AssemblyInfo.cs
+C:\Users\3019655\source\repos\SchoolApplication\SchoolApplication\SchoolApplication\obj\Debug\netcoreapp3.1\SchoolApplication.csproj.CoreCompileInputs.cache
+C:\Users\3019655\source\repos\SchoolApplication\SchoolApplication\SchoolApplication\obj\Debug\netcoreapp3.1\SchoolApplication.MvcApplicationPartsAssemblyInfo.cache

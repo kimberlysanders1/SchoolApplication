@@ -1,23 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kimdi\\source\\repos\\SchoolApplication\\SchoolApplication\\SchoolApplication\\SchoolApplication.csproj": {}
+    "C:\\Users\\3019655\\source\\repos\\SchoolApplication\\SchoolApplication\\SchoolApplication\\SchoolApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kimdi\\source\\repos\\SchoolApplication\\SchoolApplication\\SchoolApplication\\SchoolApplication.csproj": {
+    "C:\\Users\\3019655\\source\\repos\\SchoolApplication\\SchoolApplication\\SchoolApplication\\SchoolApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kimdi\\source\\repos\\SchoolApplication\\SchoolApplication\\SchoolApplication\\SchoolApplication.csproj",
+        "projectUniqueName": "C:\\Users\\3019655\\source\\repos\\SchoolApplication\\SchoolApplication\\SchoolApplication\\SchoolApplication.csproj",
         "projectName": "SchoolApplication",
-        "projectPath": "C:\\Users\\kimdi\\source\\repos\\SchoolApplication\\SchoolApplication\\SchoolApplication\\SchoolApplication.csproj",
-        "packagesPath": "C:\\Users\\kimdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kimdi\\source\\repos\\SchoolApplication\\SchoolApplication\\SchoolApplication\\obj\\",
+        "projectPath": "C:\\Users\\3019655\\source\\repos\\SchoolApplication\\SchoolApplication\\SchoolApplication\\SchoolApplication.csproj",
+        "packagesPath": "C:\\Users\\3019655\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\3019655\\source\\repos\\SchoolApplication\\SchoolApplication\\SchoolApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\kimdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\3019655\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -25,8 +28,13 @@
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 16.2\\Components\\System": {},
+          "C:\\Program Files (x86)\\DevExpress 19.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "\\\\winapps\\developer\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/9qmYnvsufooOxKYleTplmtCj2xskvbYgROLuG5I6xJ9ISh9jeP/api": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -49,6 +57,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [
@@ -61,12 +73,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.3, 3.1.3]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
