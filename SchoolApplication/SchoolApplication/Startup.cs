@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,14 +32,14 @@ namespace SchoolApplication
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = API_NAME,
-                    Version = API_VERSION,
-                    Description = API_DESCRIPTION
+                    Title = "Student API",
+                    Version = "v1",
+                    Description = "Student API"
                 });
                 //http://dotnetdetail.net/how-to-add-swagger-to-asp-net-core-3-0-web-api/
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                c.IncludeXmlComments(xmlPath);
+                //c.IncludeXmlComments(xmlPath);
             });
             services.AddControllers();
         }
@@ -60,6 +62,15 @@ namespace SchoolApplication
             {
                 endpoints.MapControllers();
             });
+
+            // Add the swagger webpage and route it to the base api url
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("./swagger/v1/swagger.json", "Student API" + " " + "v1");
+                c.RoutePrefix = string.Empty;
+            });
+
         }
     }
 }
